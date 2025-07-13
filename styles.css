@@ -57,6 +57,7 @@ body {
 .header {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 40px;
 }
 
 .search {
@@ -70,4 +71,11 @@ body {
     padding: 15px;
     border-radius: 25px;
     background-color: #E1E8F0;
+}
+
+.user-info {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 10fr;
+    gap: 20px;
+    align-items: center;
 }
