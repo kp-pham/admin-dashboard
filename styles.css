@@ -46,10 +46,6 @@ body {
     align-items: center;
 }
 
-.header {
-    border: 2px solid green;
-}
-
 .main-content {
     border: 2px solid blue;
 }
@@ -75,7 +71,8 @@ body {
 
 .user-info {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 10fr;
+    grid-template-columns: 2fr 3fr 10fr;
     gap: 20px;
+    padding: 0 0 0 100px;
     align-items: center;
 }
