@@ -52,8 +52,12 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     gap: 5px 10px;
+}
+
+.header div:nth-child(2n + 1) {
+    padding: 0 0 0 40px;
 }
 
 .search {
@@ -61,6 +65,7 @@ body {
     grid-template-columns: 1fr 35fr;
     gap: 15px;
     align-items: center;
+    padding: 0 40px;
 }
 
 .search-bar {
@@ -73,7 +78,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 10fr;
     gap: 20px;
-    padding: 0 0 0 100px;
+    padding: 0 40px 0 200px;
     align-items: center;
 }
 
@@ -99,7 +104,8 @@ body {
 .buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    align-items: center;
+    padding-right: 40px;
 }
 
 .buttons button {
@@ -107,8 +113,8 @@ body {
     color: #FFFFFF;
     padding: 0;
     margin: 0;
-    max-width: 75%;
-    max-height: 50%;
+    width: 60%;
+    height: 50%;
     border: none;
     border-radius: 25px;
 }
