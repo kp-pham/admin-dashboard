@@ -156,7 +156,8 @@ body {
     grid-column: 1 / 3;
 }
 
-.card p {
+.card p,
+.item p {
     padding: 0;
     margin: 0;
 }
@@ -182,7 +183,23 @@ body {
 }
 
 .announcements {
-    border: 2px solid green;
+    padding: 20px 0;
+}
+
+.feed {
+    background-color: #FFFFFF;
+    width: 32ch;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px -2px;
+}
+
+.feed .item:nth-child(n + 2) {
+    border-top: 2px solid #D5D5D5;
+}
+
+.item {
+    padding: 15px;
 }
 
 .trending {
