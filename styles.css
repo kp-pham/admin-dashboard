@@ -48,7 +48,7 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap: 5px 10px;
 }
 
@@ -72,9 +72,9 @@ body {
 
 .user-info {
     display: grid;
-    grid-template-columns: 1fr 2fr 10fr;
-    gap: 20px;
-    padding: 0 40px 0 200px;
+    grid-template-columns: 1.5fr 3fr 10fr;
+    gap: 50px;
+    padding: 0 40px 0 75px;
     align-items: center;
 }
 
@@ -113,6 +113,7 @@ body {
     height: 50%;
     border: none;
     border-radius: 25px;
+    justify-self: center;
 }
 
 .main-content {
