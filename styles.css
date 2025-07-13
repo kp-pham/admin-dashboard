@@ -12,6 +12,10 @@ body {
     grid-row: 1 / 3;
 }
 
+.branding svg {
+    fill: #FFFFFF;
+}
+
 .branding {
     font-size: 20px;
 }
