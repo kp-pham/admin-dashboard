@@ -146,8 +146,9 @@ body {
     grid-template-rows: 2fr 1fr;
     grid-template-columns: repeat(2, 1fr);
     background-color: #FFFFFF;
+    padding: 15px;
     border-radius: 10px;
-    border-left: 5px solid #FFA500;
+    border-left: 10px solid #FFA500;
     box-shadow: 1px 1px 4px -2px;
 }
 
@@ -172,6 +173,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 2 / 3;
+    align-items: center;
+    gap: 20px;
+}
+
+.actions svg {
+    width: 50%;
 }
 
 .announcements {
