@@ -71,8 +71,27 @@ body {
 
 .user-info {
     display: grid;
-    grid-template-columns: 2fr 3fr 10fr;
+    grid-template-columns: 1fr 2fr 10fr;
     gap: 20px;
     padding: 0 0 0 100px;
     align-items: center;
+}
+
+.message {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.message p {
+    margin: 0;
+}
+
+.greeting {
+    font-size: 10px;
+}
+
+.username {
+    font-size: 20px;
 }
