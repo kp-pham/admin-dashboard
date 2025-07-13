@@ -46,10 +46,6 @@ body {
     align-items: center;
 }
 
-.main-content {
-    border: 2px solid blue;
-}
-
 .header {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -117,4 +113,22 @@ body {
     height: 50%;
     border: none;
     border-radius: 25px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    grid-row: 1 / 3;
+    border: 2px solid red;
+}
+
+.announcements {
+    border: 2px solid green;
+}
+
+.trending {
+    border: 2px solid blue;
 }
