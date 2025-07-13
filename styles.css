@@ -58,3 +58,16 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 35fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #E1E8F0;
+}
