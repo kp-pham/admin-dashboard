@@ -194,7 +194,7 @@ body {
     box-shadow: 1px 1px 4px -2px;
 }
 
-.feed .item:nth-child(n + 2) {
+.announcements .item:nth-child(n + 2) {
     border-top: 2px solid #D5D5D5;
 }
 
@@ -202,6 +202,14 @@ body {
     padding: 15px;
 }
 
-.trending {
-    border: 2px solid blue;
+.trending .item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-name {
+    font-size: 14px;
+    color: #808080;
 }
