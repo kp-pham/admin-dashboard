@@ -4,7 +4,7 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 8fr;    
+    grid-template-rows: 1fr 7fr;    
     grid-template-columns: 1.25fr 5fr;
     margin: 0;
     padding: 0;
