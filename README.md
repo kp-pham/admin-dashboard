@@ -1,3 +1,12 @@
-# sign-up-form
+# admin-dashboard
 
-The capstone project of the Intermediate HTML and CSS course is the creation of a sign
+The capstone project of the Intermediate HTML and CSS course is the creation of a dashboard for a platform in which users create and upload projects to be shared to other users. The project provides practice with Grid and a better understanding of when to use Grid and Flexbox for the design and layout of the content on the page. The project also provides practice with more advanced HTML and CSS concepts compared to the Foundations course such as advanced CSS selectors and CSS properties, downloading fonts from online font libraries, and inline Scalable Vector Graphics (SVG) icons.
+
+## Tradeoffs between Grid and Flexbox
+
+The purpose of the project is to understand the tradeoffs between Grid and Flexbox because the difference between Grid and Flexbox is not simply one-dimensional layouts compared to two-dimensional layouts. The layout of the dashboard and the child elements of the sidebar, header, and main content containers was arranged exclusively with Grid to demonstrate that Grid and Flexbox are interchangable for one-dimensional and two-dimensional layouts because the items in the trending feed were arranged with the profile picture and the account handle of the user and the name of their project alongside each other with each item as a grid container. The column containing the account handle and the name of the project is larger than the column containing the profile picture to shrink the icon for the profile picture because more space in the grid container is allotted for the other column.
+
+The arrangement of the profile picture alongside the account handle and name of the project was intuitive for Grid regardless of the layout being one-dimensional instead of two-dimensional because the arrangement of the grid items in the grid container was predetermined. Compared to Flexbox which allows for flex items to shrink and grow based on the size of the flex container and other flex items, the grid container controls the arrangement of the grid items with rigid rows and columns which are defined. When the arrangement of items in the container is independent of the intrinsic sizing of the content of the items to be arranged, Grid is the more intuitive approach because the content of the items to be arranged does not dictate the layout. When the arrangement of the items in the container is dependent of the intrinsic sizing of the content of the items to be arranged,  Flexbox is the more intuitive approach because the content of the items to be arranged dictates the layout.
+
+## Inline SVGs
+
